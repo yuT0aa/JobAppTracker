@@ -1,0 +1,2 @@
+import { DocumentManager } from "@/components/document-manager";
+export default function DocumentsPage() { return <div><p className="text-sm text-muted-foreground">Library</p><h1 className="text-3xl font-bold tracking-tight">Documents</h1><p className="mt-2 text-muted-foreground">Keep resumes, cover letters, and portfolio links ready to share.</p><div className="mt-8"><DocumentManager /></div></div>; }
